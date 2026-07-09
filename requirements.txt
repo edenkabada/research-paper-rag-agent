@@ -1,0 +1,43 @@
+# Flask and API dependencies
+Flask==2.3.3
+Flask-CORS==4.0.0
+flask-swagger-ui==4.11.1
+
+# Document processing
+PyPDF2==3.0.1
+pdfplumber==0.10.0
+langchain
+langchain-community
+
+# Vector database and embeddings
+chromadb==0.4.22
+sentence-transformers==2.2.2
+numpy<2.0
+
+# Database
+pymongo==4.6.1
+
+# Data validation and parsing
+pydantic
+pydantic-settings
+
+# Ollama integration
+ollama
+langchain-ollama
+requests==2.31.0
+
+# Utilities
+python-dotenv==1.0.0
+pytz==2023.3
+python-multipart==0.0.6
+Werkzeug==2.3.7
+
+# Development and testing
+pytest==7.4.4
+pytest-cov==4.1.0
+
+# Logging and monitoring
+structlog==23.2.0
+
+# Testing and development
+reportlab==4.0.4
